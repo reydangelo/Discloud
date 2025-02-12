@@ -18,4 +18,4 @@ Start the express server by running
 
 Go to soundcloud website and activate the extension. Play any songs you like and there you go! You have your real-time soundcloud Rich Presence on Discord.
 
-`Note: There maybe delays in the update for the status since the ratelimit is 1 change per second.` 
+`Note: There maybe delays in the update for the status sometimes since the ratelimit is 1 change per second.` 
