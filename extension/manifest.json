@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "SoundCloud Now Playing",
+    "version": "1.0",
+    "description": "Track what you're listening to on SoundCloud.",
+    "permissions": ["activeTab", "storage", "tabs", "webNavigation"],
+    "host_permissions": ["https://soundcloud.com/*"],
+    "background": {
+      "service_worker": "./background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://soundcloud.com/*"],
+        "js": ["./content.js"]
+      }
+    ]
+  }
+  
