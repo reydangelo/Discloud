@@ -3,7 +3,7 @@ const cors = require("cors");
 const RPC = require("discord-rpc");
 
 const scopes = ["rpc", "rpc.api", "messages.read"];
-const clientId = "1191821687755391187";
+const clientId = "YOUR_CLIENT_ID";
 
 const rpc = new RPC.Client({ transport: "ipc" });
 
