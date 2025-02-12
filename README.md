@@ -7,6 +7,8 @@ and then installing the required nodemodules for the express server to change yo
 ```cd server rpc```
 ```npm install```
 
+Get an application ID by creating an application on https://discord.com/developers/applications.
+
 Go to chrome -> extensions -> load unpacked ( Developer Mode is required ) -> Select the **extension** folder
 
 # Usage
